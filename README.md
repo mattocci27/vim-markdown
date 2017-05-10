@@ -17,7 +17,7 @@ If you use [Vundle](https://github.com/gmarik/vundle), add the following line to
 
 ```vim
 Plugin 'godlygeek/tabular'
-Plugin 'mattocci/vim-markdown'
+Plugin 'mattocci27/vim-markdown'
 ```
 
 The `tabular` plugin must come *before* `vim-markdown`.
