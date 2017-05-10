@@ -747,3 +747,6 @@ augroup Mkd
     au InsertEnter,InsertLeave * call s:MarkdownRefreshSyntax(0)
     au CursorHold,CursorHoldI * call s:MarkdownRefreshSyntax(0)
 augroup END
+
+" for rmarkdown 
+call SyntaxRange#Include('^```{r}', '^```', 'r', 'SpecialComment')
