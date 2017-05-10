@@ -2,18 +2,17 @@
 
 [![Build Status](https://travis-ci.org/plasticboy/vim-markdown.svg)](https://travis-ci.org/plasticboy/vim-markdown)
 
-Syntax highlighting, matching rules and mappings for [the original Markdown](http://daringfireball.net/projects/markdown/) and extensions.
+Syntax highlighting, matching rules and mappings for [the original Markdown](http://daringfireball.net/projects/markdown/) and extensions, including [R Markdown](http://rmarkdown.rstudio.com).
 
 1. [Installation](#installation)
 1. [Credit](#credit)
 1. [Options](#options)
 1. [Mappings](#mappings)
 1. [Commands](#commands)
-1. [Credits](#credits)
 1. [License](#license)
 
 ## Credit
-This is a fork of a project created by plasticboy. This project is featured with live preview and syntax highlighting for R markdown (rmd).
+This is a fork of a project created by Ben Williams [(plasticboy)](http://plasticboy.com/). This project is featured with live preview and syntax highlighting for R markdown (rmd).
 The original project can be found at [https://github.com/plasticboy/vim-markdown.git](https://github.com/plasticboy/vim-markdown.git).
 
 ## Installation
@@ -39,7 +38,7 @@ If you use [Pathogen](https://github.com/tpope/vim-pathogen), do this:
 
 ```sh
 cd ~/.vim/bundle
-git clone https://github.com/plasticboy/vim-markdown.git
+git clone https://github.com/mattoci27/vim-markdown.git
 ```
 
 To install without Pathogen using the Debian [vim-addon-manager](http://packages.qa.debian.org/v/vim-addon-manager.html), do this:
@@ -342,14 +341,6 @@ The following requires `:filetype plugin on`.
 -   `:Toct`: Same as `:Toc` but in a new tab.
 
 -   `:Tocv`: Same as `:Toc` for symmetry with `:Toch` and `:Tocv`.
-
-## Credits
-
-The main contributors of vim-markdown are:
-
-- **Ben Williams** (A.K.A. **plasticboy**). The original developer of vim-markdown. [Homepage](http://plasticboy.com/).
-
-If you feel that your name should be on this list, please make a pull request listing your contributions.
 
 ## License
 
